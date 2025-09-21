@@ -1,0 +1,50 @@
+{
+  "20": {
+    "inputs": {
+      "model_choice": "full-body",
+      "base_person_image": [
+        "21",
+        0
+      ],
+      "product_image": [
+        "22",
+        0
+      ]
+    },
+    "class_type": "VTONAPINode",
+    "_meta": {
+      "title": "sm4ll Wrapper Sampler"
+    }
+  },
+  "21": {
+    "inputs": {
+      "image": "000.png"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "Load Image"
+    }
+  },
+  "22": {
+    "inputs": {
+      "image": "00_upper.jpg"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "Load Image"
+    }
+  },
+  "23": {
+    "inputs": {
+      "filename_prefix": "ComfyUI",
+      "images": [
+        "20",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "Save Image"
+    }
+  }
+}

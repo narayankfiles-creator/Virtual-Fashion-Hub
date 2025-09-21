@@ -1,0 +1,120 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# ===== ADDITIONS FOR YOUR VIRTUAL TRY-ON PROJECT =====
+
+# Firebase - CRITICAL
+firebase.json
+.firebaserc
+firebase-debug.log
+.firebase/
+**/google-services.json
+**/GoogleService-Info.plist
+
+# Environment variables and secrets - CRITICAL
+.env
+.env.local
+.env.production
+.env.staging
+*.env
+
+# Python/FastAPI Backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.coverage
+.pytest_cache/
+venv/
+env/
+ENV/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# AI/ML Model files - CRITICAL
+*.safetensors
+*.ckpt
+*.bin
+*.pt
+*.pth
+models/
+checkpoints/
+
+# ComfyUI specific
+comfyui/models/
+comfyui/output/
+comfyui/temp/
+comfyui/input/
+
+# API Keys and credentials - CRITICAL
+**/secrets.json
+**/service-account*.json
+**/firebase-service-account*
+
+# Logs
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node.js
+node_modules/
+package-lock.json
+yarn.lock
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Temporary files
+*.tmp
+*.temp
+.sass-cache/
